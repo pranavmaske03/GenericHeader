@@ -1,41 +1,41 @@
 # C++ Data Structures & Algorithms Library (dsalgo.h)
 
-🚀 A **single-header, templated** C++ library implementing essential data structures and algorithms with clean, reusable code.
+🚀 A **single-header, templated** C++ library implementing essential data structures and algorithms. Perfect for learning, competitions, and embedded systems!
 
 ## Features
 
 ### Data Structures
-- **Linear**: 
+- **Linear Structures**:
   - Singly/Doubly Linked Lists (`SinglyLL`, `DoublyLL`)
   - Stack (`Stack`) & Queue (`Queue`)
-- **Circular**:
+- **Circular Structures**:
   - Singly/Doubly Circular Linked Lists (`SinglyCL`, `DoublyCL`)
 - **Trees**:
-  - Binary Search Tree (`BST`)
+  - Binary Search Tree (`BST`) with traversals (Inorder/Preorder/Postorder)
 
 ### Algorithms
 - **Array Operations** (`ArrayX`):
-  - Sorting: BubbleSort, SelectionSort, InsertionSort
+  - Sorting: BubbleSort, SelectionSort, InsertionSort **(NEW: Benchmarks coming soon!)**
   - Searching: Linear, Bidirectional, Binary Search
 - **Utility Methods**:
-  - `Minimium()`, `Maximum()`, `Summation()`
-  - Frequency counting, position-based search
+  - `Minimum()`, `Maximum()`, `Summation()`
+  - Frequency counting (`CountFrequency()`), Position-based search
 
-## Usage
+**Key Advantages**  
+✔ **Zero dependencies** (Beyond STL)  
+✔ **Templated** for any data type (`int`, `string`, custom objects)  
+✔ **Memory-safe** with destructors  
+✔ **Competition-ready** (Minimal overhead)  
+
+## Usage Examples
+
+### Linked List
 ```cpp
-#include "generic.h"
+#include "dsalgo.h"
 
 int main() {
-    // Example 1: Stack
-    Stack<int> stack;
-    stack.Push(10);
-    std::cout << "Popped: " << stack.Pop() << "\n";
-
-    // Example 2: BST
-    BST<float> tree;
-    tree.Insert(3.14f);
-    tree.Inorder();  // Output: 3.14
+    SinglyLL<std::string> list;
+    list.InsertFirst("Hello");
+    list.InsertLast("World");
+    list.Display();  // Output: |Hello|->|World|->NULL
 }
----
-
-
