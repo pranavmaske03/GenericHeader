@@ -22,7 +22,8 @@
   - Frequency counting (`CountFrequency()`), Position-based search
 
 **Key Advantages**  
-✔ **Zero dependencies**
+✔ **Zero dependencies** 
+
 ✔ **Templated** for any data type (`int`, `string`, custom objects)  
 ✔ **Memory-safe** with destructors  
 ✔ **Competition-ready** 
