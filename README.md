@@ -23,7 +23,6 @@
 
 **Key Advantages**  
 ✔ **Zero dependencies** 
-
 ✔ **Templated** for any data type (`int`, `string`, custom objects)  
 ✔ **Memory-safe** with destructors  
 ✔ **Competition-ready** 
