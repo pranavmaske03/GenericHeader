@@ -1,6 +1,6 @@
 # C++ Data Structures & Algorithms Library (dsalgo.h)
 
-🚀 A **single-header, templated** C++ library implementing essential data structures and algorithms. Perfect for learning, competitions, and embedded systems!
+🚀 A **single-header, templated** C++ library implementing essential data structures and algorithms.
 
 ## Features
 
@@ -15,17 +15,17 @@
  
 ### Algorithms
 - **Array Operations** (`ArrayX`):
-  - Sorting: BubbleSort, SelectionSort, InsertionSort **(NEW: Benchmarks coming soon!)**
+  - Sorting: BubbleSort, SelectionSort, InsertionSort
   - Searching: Linear, Bidirectional, Binary Search
 - **Utility Methods**:
   - `Minimum()`, `Maximum()`, `Summation()`
   - Frequency counting (`CountFrequency()`), Position-based search
 
 **Key Advantages**  
-✔ **Zero dependencies** (Beyond STL)  
+✔ **Zero dependencies**
 ✔ **Templated** for any data type (`int`, `string`, custom objects)  
 ✔ **Memory-safe** with destructors  
-✔ **Competition-ready** (Minimal overhead)  
+✔ **Competition-ready** 
 
 ## Usage Examples
 
