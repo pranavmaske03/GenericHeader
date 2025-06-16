@@ -1,7 +1,7 @@
 # C++ Data Structures & Algorithms Library (dsalgo.h)
 
-🚀 A **single-header, templated** C++ library implementing essential data structures and algorithms.
-
+ **A single-header, template-based C++ library featuring generic linked lists, sorting algorithms, and essential data structures.**
+ 
 ## Features
 
 ### Data Structures
@@ -22,7 +22,7 @@
   - Frequency counting (`CountFrequency()`), Position-based search
 
 **Key Advantages**  
-✔ **Zero dependencies** 
+✔ **Zero dependencies**
 ✔ **Templated** for any data type (`int`, `string`, custom objects)  
 ✔ **Memory-safe** with destructors  
 ✔ **Competition-ready** 
